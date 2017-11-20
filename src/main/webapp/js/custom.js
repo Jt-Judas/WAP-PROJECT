@@ -1,5 +1,6 @@
 $(function () {
 
+    /*comment*/
     $('[required="required"]').prev('label').append( '<span>*</span>').children( 'span').addClass('required');
     $('tbody tr:even').addClass('even');
 
